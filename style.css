@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Montserrat, 'sans-serif';
     font-weight: 500;
@@ -401,7 +405,7 @@ footer {
     .design-img {
         display: flex;
         flex-wrap: wrap;
-        
+        justify-content:space-between;
     }
 
     .single-design {
@@ -421,6 +425,10 @@ footer {
         .footer {
             display: flex;
             justify-content: space-between;
+        }
+
+        .single-design {
+            padding: 2rem 1rem;
         }
 }
 
@@ -487,7 +495,7 @@ footer {
         }
 
         .single-service {
-            flex-basis: 50%;
+            flex-basis: 100%;
         }
 
         .single-design {
